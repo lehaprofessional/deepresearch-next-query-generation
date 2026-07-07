@@ -4,7 +4,7 @@ from pathlib import Path
 from statistics import mean
 
 
-PREDICTIONS_PATH = Path("runs/llm_prompt_v4_retrieval_fewshot_predictions.jsonl")
+PREDICTIONS_PATH = Path("runs/llm_context_hybrid_router_predictions.jsonl")
 
 
 def load_jsonl(path: Path):

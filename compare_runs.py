@@ -10,6 +10,10 @@ RUNS = {
     "llm_v2": Path("runs/llm_prompt_v2_predictions.jsonl"),
     "llm_v3_fewshot": Path("runs/llm_prompt_v3_fewshot_predictions.jsonl"),
     "llm_v4_retrieval_fewshot": Path("runs/llm_prompt_v4_retrieval_fewshot_predictions.jsonl"),
+    "llm_context_v1": Path("runs/llm_context_v1_predictions.jsonl"),
+    "llm_context_retrieval_fewshot_v2": Path("runs/llm_context_retrieval_fewshot_v2_predictions.jsonl"),
+    "llm_context_prompt_v2": Path("runs/llm_context_prompt_v2_predictions.jsonl"),
+    "llm_context_hybrid_router": Path("runs/llm_context_hybrid_router_predictions.jsonl"),
 }
 
 
