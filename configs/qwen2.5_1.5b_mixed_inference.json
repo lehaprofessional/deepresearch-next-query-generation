@@ -1,0 +1,22 @@
+{
+  "run_name": "qwen2.5_1.5b_lora_mixed_repro",
+  "model": {
+    "name": "Qwen/Qwen2.5-1.5B-Instruct",
+    "adapter_path": "models/qwen2.5-1.5b-task4-lora-mixed",
+    "dtype": "bfloat16",
+    "device_map": "cuda",
+    "attn_implementation": "sdpa",
+    "use_fast": true,
+    "trust_remote_code": false
+  },
+  "data": {
+    "input_path": "data/lora/val_real_sft.jsonl",
+    "output_path": "runs/qwen2.5_1.5b_lora_mixed_repro_predictions.jsonl"
+  },
+  "generation": {
+    "max_new_tokens": 64,
+    "do_sample": false,
+    "repetition_penalty": 1.05,
+    "max_input_tokens": null
+  }
+}

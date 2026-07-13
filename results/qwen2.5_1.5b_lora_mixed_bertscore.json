@@ -1,0 +1,10 @@
+{
+  "predictions_file": "C:\\Users\\Dominus\\Desktop\\deepresearch_summerschool\\runs\\qwen2.5_1.5b_lora_mixed_predictions.jsonl",
+  "examples": 32,
+  "model_type": "roberta-large",
+  "language": "en",
+  "device": "cuda",
+  "bertscore_precision": 0.8521280884742737,
+  "bertscore_recall": 0.8584898710250854,
+  "bertscore_f1": 0.8551554083824158
+}

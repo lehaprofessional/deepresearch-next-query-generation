@@ -1,0 +1,153 @@
+{
+  "synthetic_examples": 100,
+  "mixed_train_examples": 348,
+  "real_examples_in_mixed": 248,
+  "synthetic_examples_in_mixed": 100,
+  "synthetic_share": 0.28735632183908044,
+  "query_token_lengths": {
+    "minimum": 7,
+    "mean": 9.71,
+    "median": 10.0,
+    "maximum": 14
+  },
+  "exact_duplicate_synthetic_queries": {},
+  "exact_overlaps_with_real_targets": [],
+  "queries_outside_length_limit": [],
+  "distribution_by_research_question": {
+    "How does slag bacisity influence the wear rate of MgO-C refractory of the slag line of a steel ladle?": 8,
+    "List all the ladle refractory lifespan extension techniques rated by their effect to cost ratio.": 9,
+    "What is the dynamics of TFR (total fertility rate) in Australia between 2015 and 2024? Answer with precision +- 0.02 .": 5,
+    "A device can be used several times. Each use wears the device with varying rate. After a number of uses the device becomes unusable. The current wear is unmeasurable. The device is expected to withstand 100 uses, but usually it withstands less. What metric could best describe the average wear rate of the concrete device by the end of its life?": 9,
+    "Насколько мирно, каким путем и почему прошло Крещение Руси?": 9,
+    "На агрегате непрерывного горячего цинкования (АНГЦ) стальная полоса сначала проходит через печь термохимического отжига, где в контролируемой восстановительной атмосфере (обычно смесь водорода и азота) происходит удаление оксидов, рекристаллизация структуры и формирование требуемых механических свойств, после чего очищенная и активированная поверхность направляется в ванну с расплавленным цинком, где за счёт диффузионного взаимодействия железа и цинка формируется многослойное покрытие; далее избыточный металл снимается газовыми ножами, обеспечивая заданную толщину покрытия. Одним из характерных дефектов является «отслой» — нарушение адгезии цинкового покрытия к стали, проявляющееся в виде отслаивания или шелушения слоя. Какие проблемы могут приводить к появлению отслоя, и какими действиями можно их устранить?": 9,
+    "Какова была урожайность пшеницы в Российской империи в 1913 году и в Советском Союзе в 1985 году? Для СССР в 1985 году укажите урожайность пшеницы в весе после доработки. В каких республиках Советского Союза урожайность зерновых (включая зернобобовые) была самой высокой? Перечислите 3 республики СССР с наибольшей урожайностью зерновых на 1985 год (включая зернобобовые, в весе после доработки)": 2,
+    "How does the choice between a vertical bending caster and a straight vertical caster with liquid core reduction (LCR) influence the centerline segregation and porosity in high-carbon wire rod steel (C > 0.70%)?": 9,
+    "What was the approximate real share of Muslim population in France in 2017-2025?": 8,
+    "What is the lifespan of Achatina Fulica in different conditions?": 9,
+    "How does Flumag addition or Fluorospar addition influence ladle lifespan?": 9,
+    "How did the ferrous material mixture change over the years in European blast furnaces and why?": 6,
+    "На фабрике производства обожжённых железорудных окатышей передел окомкования представляет собой стадию, на которой тонкоизмельчённый железорудный концентрат после сгущения и фильтрации подаётся в смесители и далее в барабанные окомкователи, где при добавлении извести и бентонита формируются сырые окатыши требуемого гранулометрического состава; ключевым фактором стабильного процесса является влажность концентрата, так как именно она определяет пластичность шихты, способность частиц к сцеплению и формирование прочных, однородных по размеру сырых окатышей без переувлажнения (ведущего к слипанию и деформации) или пересушивания (приводящего к пылеобразованию и разрушению гранул), поэтому контроль этого параметра критически важен и должен осуществляться непосредственно перед подачей концентрата в смеситель или окомкователь — оптимально на выходе фильтров или на конвейере питания, где материал уже имеет финальное состояние по влажности. Какие виды измерительных приборов существуют для измерения влажности концентрата? На каком принципе работы они основываются? Какие у каждого из них плюсы и минусы? Установка какого прибора является оптимальным решением?": 8
+  },
+  "random_sample": [
+    {
+      "research_question": "How does slag bacisity influence the wear rate of MgO-C refractory of the slag line of a steel ladle?",
+      "query": "ladle MgO-C refractory wear forsterite layer formation basicity 2.5 slag",
+      "token_length": 10,
+      "parent_query_id": 17
+    },
+    {
+      "research_question": "List all the ladle refractory lifespan extension techniques rated by their effect to cost ratio.",
+      "query": "high MgO calcium aluminate flux refractory wear rate ladle lifecycle cost",
+      "token_length": 11,
+      "parent_query_id": 14
+    },
+    {
+      "research_question": "A device can be used several times. Each use wears the device with varying rate. After a number of uses the device becomes unusable. The current wear is unmeasurable. The device is expected to withstand 100 uses, but usually it withstands less. What metric could best describe the average wear rate of the concrete device by the end of its life?",
+      "query": "cycle-based device wear rate metric Weibull parameters",
+      "token_length": 7,
+      "parent_query_id": 9
+    },
+    {
+      "research_question": "Насколько мирно, каким путем и почему прошло Крещение Руси?",
+      "query": "Dnieper River mass baptism Kiev 988 religious conversion peaceful acceptance",
+      "token_length": 10,
+      "parent_query_id": 2
+    },
+    {
+      "research_question": "How did the ferrous material mixture change over the years in European blast furnaces and why?",
+      "query": "blast furnace ferrous burden PCI natural gas injection history",
+      "token_length": 9,
+      "parent_query_id": 15
+    },
+    {
+      "research_question": "Какова была урожайность пшеницы в Российской империи в 1913 году и в Советском Союзе в 1985 году? Для СССР в 1985 году укажите урожайность пшеницы в весе после доработки. В каких республиках Советского Союза урожайность зерновых (включая зернобобовые) была самой высокой? Перечислите 3 республики СССР с наибольшей урожайностью зерновых на 1985 год (включая зернобобовые, в весе после доработки)",
+      "query": "USSR 1985 grain yield after processing republics ranking statistical yearbook",
+      "token_length": 10,
+      "parent_query_id": 2
+    },
+    {
+      "research_question": "A device can be used several times. Each use wears the device with varying rate. After a number of uses the device becomes unusable. The current wear is unmeasurable. The device is expected to withstand 100 uses, but usually it withstands less. What metric could best describe the average wear rate of the concrete device by the end of its life?",
+      "query": "concrete device wear rate Weibull characteristic life η calculation",
+      "token_length": 9,
+      "parent_query_id": 4
+    },
+    {
+      "research_question": "Насколько мирно, каким путем и почему прошло Крещение Руси?",
+      "query": "peaceful Christianization Rostov Suzdal archaeological evidence 11th century",
+      "token_length": 8,
+      "parent_query_id": 16
+    },
+    {
+      "research_question": "How does slag bacisity influence the wear rate of MgO-C refractory of the slag line of a steel ladle?",
+      "query": "MgO-C slag line wear rate MgO solubility slag basicity correlation",
+      "token_length": 10,
+      "parent_query_id": 12
+    },
+    {
+      "research_question": "How does the choice between a vertical bending caster and a straight vertical caster with liquid core reduction (LCR) influence the centerline segregation and porosity in high-carbon wire rod steel (C > 0.70%)?",
+      "query": "comparative study center segregation index vertical bending vs straight caster high carbon blooms",
+      "token_length": 13,
+      "parent_query_id": 2
+    },
+    {
+      "research_question": "На фабрике производства обожжённых железорудных окатышей передел окомкования представляет собой стадию, на которой тонкоизмельчённый железорудный концентрат после сгущения и фильтрации подаётся в смесители и далее в барабанные окомкователи, где при добавлении извести и бентонита формируются сырые окатыши требуемого гранулометрического состава; ключевым фактором стабильного процесса является влажность концентрата, так как именно она определяет пластичность шихты, способность частиц к сцеплению и формирование прочных, однородных по размеру сырых окатышей без переувлажнения (ведущего к слипанию и деформации) или пересушивания (приводящего к пылеобразованию и разрушению гранул), поэтому контроль этого параметра критически важен и должен осуществляться непосредственно перед подачей концентрата в смеситель или окомкователь — оптимально на выходе фильтров или на конвейере питания, где материал уже имеет финальное состояние по влажности. Какие виды измерительных приборов существуют для измерения влажности концентрата? На каком принципе работы они основываются? Какие у каждого из них плюсы и минусы? Установка какого прибора является оптимальным решением?",
+      "query": "online moisture measurement iron ore concentrate optical vs microwave vs capacitance",
+      "token_length": 11,
+      "parent_query_id": 23
+    },
+    {
+      "research_question": "How did the ferrous material mixture change over the years in European blast furnaces and why?",
+      "query": "blast furnace coke replacement hydrogen injection CO2 reduction ThyssenKrupp trials",
+      "token_length": 10,
+      "parent_query_id": 13
+    },
+    {
+      "research_question": "How does the choice between a vertical bending caster and a straight vertical caster with liquid core reduction (LCR) influence the centerline segregation and porosity in high-carbon wire rod steel (C > 0.70%)?",
+      "query": "roll pitch design dynamic soft reduction high carbon steel bloom segregation control",
+      "token_length": 12,
+      "parent_query_id": 3
+    },
+    {
+      "research_question": "How does the choice between a vertical bending caster and a straight vertical caster with liquid core reduction (LCR) influence the centerline segregation and porosity in high-carbon wire rod steel (C > 0.70%)?",
+      "query": "POSCO vertical caster operating parameters casting speed superheat high carbon wire rod steel segregation",
+      "token_length": 14,
+      "parent_query_id": 22
+    },
+    {
+      "research_question": "Насколько мирно, каким путем и почему прошло Крещение Руси?",
+      "query": "Kievan Rus Christianization Byzantine political alliance Basil II",
+      "token_length": 8,
+      "parent_query_id": 6
+    },
+    {
+      "research_question": "What is the dynamics of TFR (total fertility rate) in Australia between 2015 and 2024? Answer with precision +- 0.02 .",
+      "query": "Australia TFR quarterly data 2023 2024 ABS time series",
+      "token_length": 9,
+      "parent_query_id": 3
+    },
+    {
+      "research_question": "Насколько мирно, каким путем и почему прошло Крещение Руси?",
+      "query": "Political motivations Byzantine alliance Basil II Anna Porphyrogenita Kievan Rus conversion",
+      "token_length": 11,
+      "parent_query_id": 1
+    },
+    {
+      "research_question": "На агрегате непрерывного горячего цинкования (АНГЦ) стальная полоса сначала проходит через печь термохимического отжига, где в контролируемой восстановительной атмосфере (обычно смесь водорода и азота) происходит удаление оксидов, рекристаллизация структуры и формирование требуемых механических свойств, после чего очищенная и активированная поверхность направляется в ванну с расплавленным цинком, где за счёт диффузионного взаимодействия железа и цинка формируется многослойное покрытие; далее избыточный металл снимается газовыми ножами, обеспечивая заданную толщину покрытия. Одним из характерных дефектов является «отслой» — нарушение адгезии цинкового покрытия к стали, проявляющееся в виде отслаивания или шелушения слоя. Какие проблемы могут приводить к появлению отслоя, и какими действиями можно их устранить?",
+      "query": "Pickling acid concentration residual oxides continuous galvanizing line adhesion failure",
+      "token_length": 10,
+      "parent_query_id": 10
+    },
+    {
+      "research_question": "What is the lifespan of Achatina Fulica in different conditions?",
+      "query": "Achatina fulica lifespan captive husbandry calcium diet effects",
+      "token_length": 8,
+      "parent_query_id": 14
+    },
+    {
+      "research_question": "List all the ladle refractory lifespan extension techniques rated by their effect to cost ratio.",
+      "query": "shotcrete repair ladle refractory campaign extension operating cost",
+      "token_length": 8,
+      "parent_query_id": 13
+    }
+  ]
+}

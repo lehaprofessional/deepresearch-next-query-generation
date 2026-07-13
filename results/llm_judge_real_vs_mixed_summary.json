@@ -1,0 +1,267 @@
+{
+  "expected_examples": 32,
+  "judged_examples": 32,
+  "judge_calls": 64,
+  "per_call_outcomes": {
+    "mixed": 30,
+    "real": 32,
+    "tie": 2
+  },
+  "per_example_outcomes": {
+    "mixed": 12,
+    "real": 13,
+    "tie": 7
+  },
+  "real_mean_scores": {
+    "relevance": 3.40625,
+    "novelty": 2.359375,
+    "groundedness": 3.78125,
+    "technical_specificity": 3.0625,
+    "search_quality": 3.515625,
+    "overall": 3.078125
+  },
+  "mixed_mean_scores": {
+    "relevance": 3.375,
+    "novelty": 2.515625,
+    "groundedness": 3.390625,
+    "technical_specificity": 3.3125,
+    "search_quality": 3.28125,
+    "overall": 3.109375
+  },
+  "mixed_win_rate": 0.375,
+  "real_win_rate": 0.40625,
+  "tie_rate": 0.21875,
+  "per_example": [
+    {
+      "example_index": 1,
+      "real_votes": 0,
+      "mixed_votes": 2,
+      "tie_votes": 0,
+      "outcome": "mixed"
+    },
+    {
+      "example_index": 2,
+      "real_votes": 2,
+      "mixed_votes": 0,
+      "tie_votes": 0,
+      "outcome": "real"
+    },
+    {
+      "example_index": 3,
+      "real_votes": 2,
+      "mixed_votes": 0,
+      "tie_votes": 0,
+      "outcome": "real"
+    },
+    {
+      "example_index": 4,
+      "real_votes": 1,
+      "mixed_votes": 1,
+      "tie_votes": 0,
+      "outcome": "tie"
+    },
+    {
+      "example_index": 5,
+      "real_votes": 2,
+      "mixed_votes": 0,
+      "tie_votes": 0,
+      "outcome": "real"
+    },
+    {
+      "example_index": 6,
+      "real_votes": 0,
+      "mixed_votes": 2,
+      "tie_votes": 0,
+      "outcome": "mixed"
+    },
+    {
+      "example_index": 7,
+      "real_votes": 0,
+      "mixed_votes": 2,
+      "tie_votes": 0,
+      "outcome": "mixed"
+    },
+    {
+      "example_index": 8,
+      "real_votes": 2,
+      "mixed_votes": 0,
+      "tie_votes": 0,
+      "outcome": "real"
+    },
+    {
+      "example_index": 9,
+      "real_votes": 0,
+      "mixed_votes": 2,
+      "tie_votes": 0,
+      "outcome": "mixed"
+    },
+    {
+      "example_index": 10,
+      "real_votes": 0,
+      "mixed_votes": 2,
+      "tie_votes": 0,
+      "outcome": "mixed"
+    },
+    {
+      "example_index": 11,
+      "real_votes": 2,
+      "mixed_votes": 0,
+      "tie_votes": 0,
+      "outcome": "real"
+    },
+    {
+      "example_index": 12,
+      "real_votes": 2,
+      "mixed_votes": 0,
+      "tie_votes": 0,
+      "outcome": "real"
+    },
+    {
+      "example_index": 13,
+      "real_votes": 2,
+      "mixed_votes": 0,
+      "tie_votes": 0,
+      "outcome": "real"
+    },
+    {
+      "example_index": 14,
+      "real_votes": 0,
+      "mixed_votes": 2,
+      "tie_votes": 0,
+      "outcome": "mixed"
+    },
+    {
+      "example_index": 15,
+      "real_votes": 1,
+      "mixed_votes": 1,
+      "tie_votes": 0,
+      "outcome": "tie"
+    },
+    {
+      "example_index": 16,
+      "real_votes": 1,
+      "mixed_votes": 1,
+      "tie_votes": 0,
+      "outcome": "tie"
+    },
+    {
+      "example_index": 17,
+      "real_votes": 2,
+      "mixed_votes": 0,
+      "tie_votes": 0,
+      "outcome": "real"
+    },
+    {
+      "example_index": 18,
+      "real_votes": 1,
+      "mixed_votes": 1,
+      "tie_votes": 0,
+      "outcome": "tie"
+    },
+    {
+      "example_index": 19,
+      "real_votes": 0,
+      "mixed_votes": 2,
+      "tie_votes": 0,
+      "outcome": "mixed"
+    },
+    {
+      "example_index": 20,
+      "real_votes": 2,
+      "mixed_votes": 0,
+      "tie_votes": 0,
+      "outcome": "real"
+    },
+    {
+      "example_index": 21,
+      "real_votes": 0,
+      "mixed_votes": 2,
+      "tie_votes": 0,
+      "outcome": "mixed"
+    },
+    {
+      "example_index": 22,
+      "real_votes": 0,
+      "mixed_votes": 2,
+      "tie_votes": 0,
+      "outcome": "mixed"
+    },
+    {
+      "example_index": 23,
+      "real_votes": 0,
+      "mixed_votes": 2,
+      "tie_votes": 0,
+      "outcome": "mixed"
+    },
+    {
+      "example_index": 24,
+      "real_votes": 2,
+      "mixed_votes": 0,
+      "tie_votes": 0,
+      "outcome": "real"
+    },
+    {
+      "example_index": 25,
+      "real_votes": 0,
+      "mixed_votes": 0,
+      "tie_votes": 2,
+      "outcome": "tie"
+    },
+    {
+      "example_index": 26,
+      "real_votes": 0,
+      "mixed_votes": 2,
+      "tie_votes": 0,
+      "outcome": "mixed"
+    },
+    {
+      "example_index": 27,
+      "real_votes": 1,
+      "mixed_votes": 1,
+      "tie_votes": 0,
+      "outcome": "tie"
+    },
+    {
+      "example_index": 28,
+      "real_votes": 2,
+      "mixed_votes": 0,
+      "tie_votes": 0,
+      "outcome": "real"
+    },
+    {
+      "example_index": 29,
+      "real_votes": 1,
+      "mixed_votes": 1,
+      "tie_votes": 0,
+      "outcome": "tie"
+    },
+    {
+      "example_index": 30,
+      "real_votes": 2,
+      "mixed_votes": 0,
+      "tie_votes": 0,
+      "outcome": "real"
+    },
+    {
+      "example_index": 31,
+      "real_votes": 2,
+      "mixed_votes": 0,
+      "tie_votes": 0,
+      "outcome": "real"
+    },
+    {
+      "example_index": 32,
+      "real_votes": 0,
+      "mixed_votes": 2,
+      "tie_votes": 0,
+      "outcome": "mixed"
+    }
+  ],
+  "judge_model": "deepseek/deepseek-chat-v3.1",
+  "validation_file": "data\\lora\\val_real_sft.jsonl",
+  "real_predictions_file": "runs\\qwen2.5_1.5b_lora_real_predictions.jsonl",
+  "mixed_predictions_file": "runs\\qwen2.5_1.5b_lora_mixed_predictions.jsonl",
+  "repeats": 2,
+  "seed": 42,
+  "synthetic_examples_in_evaluation": 0
+}

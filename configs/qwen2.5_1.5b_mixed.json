@@ -1,0 +1,53 @@
+{
+  "experiment_name": "qwen2.5-1.5b-task4-mixed",
+  "model": {
+    "name": "Qwen/Qwen2.5-1.5B-Instruct",
+    "max_length": 2048,
+    "dtype": "bfloat16",
+    "trust_remote_code": false,
+    "use_fast_tokenizer": true
+  },
+  "data": {
+    "train_path": "data/lora/train_mixed_pilot_sft.jsonl",
+    "validation_path": "data/lora/val_real_sft.jsonl",
+    "pad_to_multiple_of": 8
+  },
+  "lora": {
+    "rank": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "bias": "none",
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ]
+  },
+  "training": {
+    "output_dir": "models/qwen2.5-1.5b-task4-lora-mixed",
+    "metrics_output": "results/qwen2.5_1.5b_lora_mixed_metrics.json",
+    "num_train_epochs": 5,
+    "learning_rate": 0.0001,
+    "train_batch_size": 1,
+    "eval_batch_size": 1,
+    "gradient_accumulation_steps": 8,
+    "warmup_ratio": 0.05,
+    "weight_decay": 0.0,
+    "logging_steps": 5,
+    "save_total_limit": 2,
+    "early_stopping_patience": 2,
+    "gradient_checkpointing": true,
+    "bf16": true,
+    "fp16": false,
+    "optim": "adamw_torch",
+    "lr_scheduler_type": "linear",
+    "dataloader_num_workers": 0,
+    "seed": 42,
+    "overwrite_output_dir": false,
+    "resume_from_checkpoint": null
+  }
+}

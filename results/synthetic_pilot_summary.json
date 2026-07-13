@@ -1,0 +1,23 @@
+{
+  "teacher_model": "deepseek/deepseek-chat-v3.1",
+  "seed": 42,
+  "real_train_examples": 248,
+  "target_synthetic_examples": 10,
+  "processed_source_examples": 12,
+  "accepted_synthetic_examples": 10,
+  "api_failures": 0,
+  "mixed_train_examples": 258,
+  "language_policy": "same_as_parent_real_target",
+  "accepted_language_distribution": {
+    "English": 8,
+    "Russian": 2
+  },
+  "rejection_reasons": {
+    "unsupported_numbers": 2
+  },
+  "paths": {
+    "synthetic": "data\\synthetic\\task4_synthetic_pilot.jsonl",
+    "audit": "data\\synthetic\\task4_synthetic_pilot_audit.jsonl",
+    "mixed": "data\\lora\\train_mixed_pilot_sft.jsonl"
+  }
+}
