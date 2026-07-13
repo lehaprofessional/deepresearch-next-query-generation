@@ -1,10 +1,16 @@
 import json
 import re
+import os
 from pathlib import Path
 from statistics import mean
 
 
-PREDICTIONS_PATH = Path("runs/llm_context_hybrid_router_predictions.jsonl")
+PREDICTIONS_PATH = Path(
+    os.getenv(
+        "PREDICTIONS_PATH",
+        "runs/llm_context_prompt_v2_predictions.jsonl",
+    )
+)
 
 
 def load_jsonl(path: Path):
@@ -75,7 +81,9 @@ def repeats_previous_query(prediction: str, previous_queries: list[str]) -> floa
 
 def main():
     items = load_jsonl(PREDICTIONS_PATH)
+    print("Predictions file:", PREDICTIONS_PATH.resolve())
 
+    predictions = load_jsonl(PREDICTIONS_PATH)
     exact_scores = []
     f1_scores = []
     jaccard_scores = []

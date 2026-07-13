@@ -18,6 +18,12 @@ RUNS = {
     "llm_context_retrieval_fewshot_v2": Path("runs/llm_context_retrieval_fewshot_v2_predictions.jsonl"),
     "llm_context_prompt_v2": Path("runs/llm_context_prompt_v2_predictions.jsonl"),
     "llm_context_hybrid_router": Path("runs/llm_context_hybrid_router_predictions.jsonl"),
+    "qwen2.5_1.5b_base": Path(
+    "runs/qwen2.5_1.5b_base_predictions.jsonl"
+),
+"qwen2.5_1.5b_lora_real": Path(
+    "runs/qwen2.5_1.5b_lora_real_predictions.jsonl"
+),
 }
 
 OUTPUT_DIR = Path("results")

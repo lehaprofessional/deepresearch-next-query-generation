@@ -9,3 +9,5 @@
 | llm_context_retrieval_fewshot_v2 | 32 | 0.8626 | 0.8600 | 0.8612 |
 | llm_context_prompt_v2 | 32 | 0.8601 | 0.8613 | 0.8606 |
 | llm_context_hybrid_router | 32 | 0.8640 | 0.8637 | 0.8638 |
+| qwen2.5_1.5b_base | 32 | 0.8396 | 0.8473 | 0.8433 |
+| qwen2.5_1.5b_lora_real | 32 | 0.8495 | 0.8553 | 0.8522 |
