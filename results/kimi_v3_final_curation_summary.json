@@ -1,0 +1,10 @@
+{
+  "individually_accepted_after_manual_review": 22,
+  "rejected": 8,
+  "semantic_duplicates_removed": 2,
+  "training_ready_examples": 20,
+  "modified_queries": [
+    "rq_e24f1ca091_step_1"
+  ],
+  "recommended_action": "Build the 20-row SFT augmentation locally and document the no-thinking run as not completed due to endpoint unavailability."
+}

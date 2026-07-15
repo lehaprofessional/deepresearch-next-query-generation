@@ -1,0 +1,2 @@
+{"trajectory_id": "rq_7872b25a6c_step_1", "synthetic_query": "Australia TFR 2024 ABS births release", "curation_status": "removed_semantic_duplicate", "curation_reason": "Same TFR-2024 ABS search intent as step_5; step_5 retains the richest context and is kept for training."}
+{"trajectory_id": "rq_7872b25a6c_step_3", "synthetic_query": "Australia total fertility rate 2024 ABS preliminary births", "curation_status": "removed_semantic_duplicate", "curation_reason": "Same TFR-2024 ABS search intent as step_5; step_5 retains the richest context and is kept for training."}
